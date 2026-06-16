@@ -1,0 +1,67 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "shivdeepak-marketplace",
+  "description": "A curated registry of Agent Skills by Shiv Deepak — for Claude Code, Cursor, Codex, and beyond.",
+  "owner": {
+    "name": "Shiv Deepak",
+    "email": "shivdeepak@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "speakeasy",
+      "description": "Coaches spoken English after each reply on voice input. Flags grammar, word choice, and idiom errors; stays silent when clean.",
+      "author": {
+        "name": "Shiv Deepak"
+      },
+      "category": "learning",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/shivdeepak/speakeasy.git",
+        "sha": "7dc8e1dcae1d3757daf75139c0b00f5afa5dd82f"
+      },
+      "homepage": "https://github.com/shivdeepak/speakeasy"
+    },
+    {
+      "name": "self-documenting",
+      "description": "Keeps a project self-documenting by updating docs alongside code — triggered by any change that adds, removes, or alters behavior.",
+      "author": {
+        "name": "Shiv Deepak"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/shivdeepak/self-documenting.git",
+        "sha": "180dd4be3f12fe43f9178a0769f6485b5f849b00"
+      },
+      "homepage": "https://github.com/shivdeepak/self-documenting"
+    },
+    {
+      "name": "knowledge-base-builder",
+      "description": "Turns a folder of notes, docs, or plans into an LLM-navigable knowledge base using index.md files and per-note summaries. No vector DB.",
+      "author": {
+        "name": "Shiv Deepak"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/shivdeepak/knowledge-base-builder.git",
+        "sha": "8429b239b06d2c9728a198733bae4a674cbe890e"
+      },
+      "homepage": "https://github.com/shivdeepak/knowledge-base-builder"
+    },
+    {
+      "name": "skillship",
+      "description": "Drives the skillship CLI to scaffold, validate, package, and publish Agent Skills across platforms.",
+      "author": {
+        "name": "Shiv Deepak"
+      },
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/shivdeepak/skillship.git",
+        "sha": "d7c5f5cb23c12ce6916ff60ad8f886d56bde5e0e"
+      },
+      "homepage": "https://github.com/shivdeepak/skillship"
+    }
+  ]
+}

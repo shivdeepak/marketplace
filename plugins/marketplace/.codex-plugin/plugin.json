@@ -1,0 +1,34 @@
+{
+  "name": "marketplace",
+  "version": "1.0.0",
+  "description": "Codex plugin entry for Shiv Deepak's Agent Skills Marketplace.",
+  "author": {
+    "name": "Shiv Deepak",
+    "url": "https://github.com/shivdeepak"
+  },
+  "homepage": "https://github.com/shivdeepak/marketplace",
+  "repository": "https://github.com/shivdeepak/marketplace",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "marketplace",
+    "skills"
+  ],
+  "interface": {
+    "displayName": "Agent Skills Marketplace",
+    "shortDescription": "Discover Agent Skills by Shiv Deepak for Codex and other agents.",
+    "longDescription": "A curated registry of Agent Skills by Shiv Deepak, with install instructions and repository links for each skill.",
+    "developerName": "Shiv Deepak",
+    "category": "Productivity",
+    "capabilities": [
+      "Discovery"
+    ],
+    "websiteURL": "https://github.com/shivdeepak/marketplace",
+    "defaultPrompt": [
+      "Show me available Agent Skills.",
+      "Help me install a skill from this marketplace.",
+      "Add a new skill to this marketplace."
+    ],
+    "brandColor": "#2563EB"
+  }
+}

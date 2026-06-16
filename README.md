@@ -31,7 +31,7 @@ Individual skills that are published to the Cursor Marketplace can also be insta
 ### Codex CLI
 
 ```bash
-npx codex-marketplace add shivdeepak/marketplace --plugins
+npx codex-marketplace add shivdeepak/marketplace --plugins --project
 ```
 
 Or launch `codex` and type `/plugins` to browse and install interactively.

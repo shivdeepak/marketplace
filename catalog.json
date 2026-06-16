@@ -1,0 +1,43 @@
+{
+  "$schema": "./catalog-schema.json",
+  "version": "1",
+  "author": "shivdeepak",
+  "skills": [
+    {
+      "name": "speakeasy",
+      "description": "Coaches spoken English after each reply on voice input. Use every turn. Flags grammar, word choice, idiom; ignores caps, punctuation, filler. Silent when clean.",
+      "repo": "https://github.com/shivdeepak/speakeasy",
+      "version": "1.0.2",
+      "license": "MIT",
+      "platforms": ["claude-code", "cursor", "claude-web", "claude-cowork", "codex"],
+      "tags": ["language", "writing", "voice"]
+    },
+    {
+      "name": "self-documenting",
+      "description": "Keep a project self-documenting by updating docs alongside code. Use after any change that adds, removes, or alters behavior, config, commands, APIs, or project structure.",
+      "repo": "https://github.com/shivdeepak/self-documenting",
+      "version": "1.1.2",
+      "license": "MIT",
+      "platforms": ["claude-code", "cursor", "claude-web", "claude-cowork", "codex"],
+      "tags": ["documentation", "devex"]
+    },
+    {
+      "name": "knowledge-base-builder",
+      "description": "Turn a folder of notes, docs, or plans into an LLM-navigable knowledge base: index.md files and per-note summaries, no vector DB. Trigger: organize notes, second brain, knowledge base.",
+      "repo": "https://github.com/shivdeepak/knowledge-base-builder",
+      "version": "1.1.1",
+      "license": "MIT",
+      "platforms": ["claude-code", "cursor", "claude-web", "claude-cowork", "codex"],
+      "tags": ["knowledge", "notes", "organization"]
+    },
+    {
+      "name": "skillship",
+      "description": "Turn a project into a publishable Agent Skill via the skillship CLI. Use to scaffold, validate, package, install, or publish a SKILL.md for Cursor, Claude Code, Claude Web, or Cowork.",
+      "repo": "https://github.com/shivdeepak/skillship",
+      "version": "1.2.2",
+      "license": "MIT",
+      "platforms": ["claude-code", "cursor", "claude-web", "claude-cowork", "codex"],
+      "tags": ["tooling", "devex", "publishing"]
+    }
+  ]
+}

@@ -6,6 +6,38 @@ The registry is [`catalog.json`](./catalog.json). Skills live in their own repos
 
 ---
 
+## Adding this marketplace
+
+### Claude Code
+
+```
+/plugin marketplace add shivdeepak/marketplace
+```
+
+This registers the catalog with Claude Code. Run `/plugin` and go to the **Discover** tab to browse available skills, then install one:
+
+```
+/plugin install <skill-name>@shivdeepak-marketplace
+```
+
+After installing, run `/reload-plugins` and invoke the skill with `/<skill-name>`.
+
+### Cursor
+
+**Teams / Enterprise** — go to **Dashboard → Settings → Plugins**, click **Import** under Team Marketplaces, and paste `https://github.com/shivdeepak/marketplace`.
+
+Individual skills that are published to the Cursor Marketplace can also be installed directly inside the editor with `/add-plugin`.
+
+### Codex CLI
+
+```bash
+npx codex-marketplace add shivdeepak/marketplace --plugins
+```
+
+Or launch `codex` and type `/plugins` to browse and install interactively.
+
+---
+
 ## Skills
 
 ### [speakeasy](https://github.com/shivdeepak/speakeasy) `v1.0.2`

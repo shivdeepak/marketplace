@@ -25,7 +25,7 @@
       "name": "knowledge-base-builder",
       "description": "Turn a folder of notes, docs, or plans into an LLM-navigable knowledge base: index.md files and per-note summaries, no vector DB. Trigger: organize notes, second brain, knowledge base.",
       "repo": "https://github.com/shivdeepak/knowledge-base-builder",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "license": "MIT",
       "platforms": ["claude-code", "cursor", "claude-web", "claude-cowork", "codex"],
       "tags": ["knowledge", "notes", "organization"]
